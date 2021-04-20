@@ -1,0 +1,14 @@
+html,.pag{
+    background-color: black;
+    height: 100%;
+}
+
+.pag{
+    padding-top: 2%;
+}
+
+.container{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}

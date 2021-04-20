@@ -1,0 +1,2 @@
+[2021-04-12 08:59:34.057] [main] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/aluno/Área de Trabalho/laravel/example-app/~/.vscode-root/User'
+[2021-04-12 08:59:34.493] [main] [info] update#setState idle

@@ -10,15 +10,26 @@ class SerieRemove{
         DB::transaction(function() use (&$return,$id){
             $serie = Serie::find($id);
             $return = $serie->nome;
-    
+
             $serie->temporadas->each(function ($temporada){
-                $temporada->episodio->each(function($episodio){
-                    $episodio->delete();
-                });
-                $temporada->delete();
+                $this->TempRemove($temporada);
             });
+
             Serie::destroy($id);
         });
         return $return;
+    }
+
+    public function TempRemove(Temporada $temp){
+        DB::transaction(function() use ($temp){
+            $temp->episodio->each(function($episodio){
+                $this->EpRemove($episodio);
+            });
+            $temp->delete();
+        });
+    }
+
+    public function EpRemove(Episodio $ep){
+        $ep->delete();
     }
 }

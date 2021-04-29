@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\SeriesController;
+use App\Http\Controllers\TemporadasController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -19,3 +20,5 @@ Route::get('/series/create', [SeriesController::class, 'create'])->name('criar_s
 Route::post('/series/create', [SeriesController::class, 'store']);
 
 Route::delete('/series/{id}',[SeriesController::class, 'remove']);
+
+Route::get('/series/{serieid}/temporadas',[TemporadasController::class,'index']);

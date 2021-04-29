@@ -1,0 +1,7 @@
+[Info  - 08:48:32] Initialising intelephense 1.5.4
+[Info  - 08:48:33] Initialised in 11 ms
+[Warn  - 08:48:34] file:///home/aluno/%C3%81rea%20de%20Trabalho/laravel/example-app/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 08:48:34] Indexing started.
+[Info  - 08:49:35] Indexing ended. 5875 files indexed in 60s.
+[Info  - 08:49:35] Writing state to /home/aluno/Área de Trabalho/laravel/example-app/routes/~/.vscode-root/User/workspaceStorage/bf4b237bb5466dcfbc3dc8f19c57ff86/bmewburn.vscode-intelephense-client/3f1d86bc.
+[Info  - 08:49:37] Wrote state in 1.4s.

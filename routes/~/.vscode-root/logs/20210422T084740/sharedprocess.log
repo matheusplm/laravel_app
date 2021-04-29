@@ -1,3 +1,0 @@
-[2021-04-22 08:47:45.820] [sharedprocess] [info] main {"machineId":"739182de0dec3e7b80595b52a605fd4325695dd4aea6abd4d82e59d635639542","windowId":2}
-[2021-04-22 08:47:46.074] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/aluno/Área de Trabalho/laravel/example-app/routes/~/.vscode-root/User/snippets'
-[2021-04-22 08:48:25.847] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,5 +1,0 @@
-[2021-04-22 08:48:16.802] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
-[2021-04-22 08:48:16.822] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
-[2021-04-22 09:12:04.101] [renderer1] [error] Cannot read property 'column' of undefined: TypeError: Cannot read property 'column' of undefined
-    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2902:858
-[2021-04-22 14:52:04.789] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.css-language-features' took 87% of 1288.248ms, saved PROFILE here: '/tmp/exthost-df91c6.cpuprofile' [{"id":"program","total":81314,"percentage":6},{"id":"self","total":79978,"percentage":6},{"id":"vscode.css-language-features","total":1126706,"percentage":87}]

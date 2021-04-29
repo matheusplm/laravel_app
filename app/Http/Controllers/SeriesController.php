@@ -17,7 +17,7 @@ class SeriesController extends Controller{
         //carregando a view index, mandando a variavel series
         return view('series.index',compact('series','message'));
     }
-    
+
     public function create(){
         return view('series.create');
     }
@@ -39,5 +39,15 @@ class SeriesController extends Controller{
         $serieRemove->SerieRemove($request->id);
 
         return redirect('/series');
+    }
+
+    public function editNome(Request $request){
+        $newName = $request->nome;
+        $serie = Serie::find($request->serieid);
+
+        if(strlen($newName)>2){
+            $serie->nome = $newName;
+            $serie->save();
+        }
     }
 }

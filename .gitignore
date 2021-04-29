@@ -10,4 +10,4 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarnwerror.log
-routes/~
+/routes/~/.vscode-root
